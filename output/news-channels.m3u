@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 #EXTINF:-1 tvg-name="CNN International" group-title="US News",CNN International
 http://www.freeintertv.com/mpdstream/show.mpd?channel=5a9b6de88a8ec01d8ee4a3f1be14415f
 #EXTINF:-1 tvg-name="CNN USA" group-title="US News",CNN USA
