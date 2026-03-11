@@ -6,11 +6,8 @@ https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master_400
 #EXTINF:-1 tvg-id="CBSNews247.us@SD" tvg-name="CBS News 24/7" group-title="US News",CBS News 24/7
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
 
-#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg TV" group-title="US News",Bloomberg TV
-https://aegis-cloudfront-1.tubi.video/de29234d-1a53-4cf9-b6ba-9cf412b66d76/playlist.m3u8
-
-#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC" group-title="US News",CNBC
-https://fl2.moveonjoy.com/CNBC/index.m3u8
+#EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-name="NBC News Now" group-title="US News",NBC News Now
+https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8
 
 #EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News Channel" group-title="US News",Fox News Channel
 https://tvpass.org/live/FoxNewsChannel/hd
@@ -18,26 +15,59 @@ https://tvpass.org/live/FoxNewsChannel/hd
 #EXTINF:-1 tvg-id="" tvg-name="MSNBC" group-title="US News",MSNBC
 https://tvpass.org/live/MSNBC/hd
 
-#EXTINF:-1 tvg-id="Newsmax2.us@SD" tvg-name="Newsmax" group-title="US News",Newsmax
+#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg TV" group-title="Business News",Bloomberg TV
+https://aegis-cloudfront-1.tubi.video/de29234d-1a53-4cf9-b6ba-9cf412b66d76/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC" group-title="Business News",CNBC
+https://fl2.moveonjoy.com/CNBC/index.m3u8
+
+#EXTINF:-1 tvg-id="CheddarNews.us" tvg-name="Cheddar News" group-title="Business News",Cheddar News
+https://aegis-cloudfront-1.tubi.video/27ff1997-507a-41c4-8433-08875fe5f40f/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Newsmax2.us@SD" tvg-name="Newsmax" group-title="US Alternative",Newsmax
 https://newsmax-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="WeatherNation.us@SD" tvg-name="WeatherNation" group-title="US News",WeatherNation
+#EXTINF:-1 tvg-id="WeatherNation.us@SD" tvg-name="WeatherNation" group-title="US Alternative",WeatherNation
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d2cb7ac552e3773bc48982e/master.m3u8?deviceDNT=0&deviceId=channel&deviceMake=firefox&deviceType=web&deviceVersion=147.0.0&sid=weather
 
-#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-name="BBC News" group-title="International",BBC News
+#EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-name="BBC News" group-title="International Major",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8
 
-#EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-name="Al Jazeera English" group-title="International",Al Jazeera English
+#EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-name="Al Jazeera English" group-title="International Major",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 
-#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" group-title="International",France 24 English
+#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" group-title="International Major",France 24 English
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 
-#EXTINF:-1 tvg-id="DW.de@English" tvg-name="Deutsche Welle (DW)" group-title="International",Deutsche Welle (DW)
+#EXTINF:-1 tvg-id="DW.de@English" tvg-name="Deutsche Welle (DW)" group-title="International Major",Deutsche Welle (DW)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 
-#EXTINF:-1 tvg-id="NHKWorldPremium.jp@SD" tvg-name="NHK World Japan" group-title="International",NHK World Japan
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr@SD" tvg-name="Euronews English" group-title="International Major",Euronews English
+https://streams.sofast.tv/euronewsen/live/eds/euronews-en/25017/euronews-en.m3u8
+
+#EXTINF:-1 tvg-id="CGTN.cn" tvg-name="CGTN English" group-title="International Major",CGTN English
+https://english-livebkali.cgtn.com/live/encgtn.m3u8
+
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" group-title="International Regional",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-id="WION.in" tvg-name="WION" group-title="International Regional",WION
+https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+
+#EXTINF:-1 tvg-id="ABCNewsAustralia.au" tvg-name="ABC News Australia" group-title="International Regional",ABC News Australia
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+
+#EXTINF:-1 tvg-id="CNA.sg" tvg-name="CNA" group-title="International Regional",CNA
+https://mediacorp-videosbclive.akamaized.net/dd724cfb0e8e4cdc921bbc4ac94614bf/ap-southeast-1/6057994443001/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RTNews.ru" tvg-name="RT News" group-title="International Regional",RT News
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ArirangTV.kr" tvg-name="Arirang TV" group-title="International Regional",Arirang TV
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NHKWorldPremium.jp@SD" tvg-name="NHK World Japan" group-title="International Europe",NHK World Japan
 https://cdn.nhkworld.jp/www11/nhkworld-tv/pre/hlscomp.m3u8
 
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr@SD" tvg-name="Euronews English" group-title="International",Euronews English
-https://streams.sofast.tv/euronewsen/live/eds/euronews-en/25017/euronews-en.m3u8
+#EXTINF:-1 tvg-id="RaiNews24.it" tvg-name="Rai News 24" group-title="International Europe",Rai News 24
+https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8

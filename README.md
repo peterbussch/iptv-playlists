@@ -27,7 +27,7 @@ Free IPTV playlists for post-Soviet channels and US TV, built for Apple TV (iPla
 |---|---|---|
 | `post-soviet-tv.m3u` | ~1,000 | Russia, Ukraine, + 13 former Soviet states |
 | `us-tv.m3u` | ~2,400 | US free-to-air and streaming channels |
-| `news-channels.m3u8` | 14 | Working US & international news (ABC, CBS, Fox, BBC, Al Jazeera, etc.) |
+| `news-channels.m3u8` | 24 | Comprehensive MSM news package — US networks (ABC, CBS, NBC, Fox News, MSNBC, Bloomberg, CNBC, Cheddar) + major international (BBC, Al Jazeera, France 24, DW, CGTN, TRT World, WION, RT, etc.) |
 
 ## Apple TV setup (iPlayTV)
 
