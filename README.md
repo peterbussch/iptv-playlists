@@ -27,7 +27,7 @@ Free IPTV playlists for post-Soviet channels and US TV, built for Apple TV (iPla
 |---|---|---|
 | `post-soviet-tv.m3u` | ~1,000 | Russia, Ukraine, + 13 former Soviet states |
 | `us-tv.m3u` | ~2,400 | US free-to-air and streaming channels |
-| `news-channels.m3u` | 21 | Curated US & international news (CNN, BBC, Fox, Al Jazeera, etc.) |
+| `news-channels.m3u8` | 14 | Working US & international news (ABC, CBS, Fox, BBC, Al Jazeera, etc.) |
 
 ## Apple TV setup (iPlayTV)
 
@@ -36,7 +36,7 @@ Free IPTV playlists for post-Soviet channels and US TV, built for Apple TV (iPla
 3. On Apple TV → iPlayTV → **Add Playlist** → enter:
    - `http://<your-mac-ip>:8642/post-soviet-tv.m3u`
    - `http://<your-mac-ip>:8642/us-tv.m3u`
-   - `http://<your-mac-ip>:8642/news-channels.m3u`
+   - `http://<your-mac-ip>:8642/news-channels.m3u8`
 4. Done — folders show up automatically from group-title tags
 
 The server prints your Mac's local IP when it starts.
@@ -52,7 +52,7 @@ The server prints your Mac's local IP when it starts.
 ├── output/
 │   ├── post-soviet-tv.m3u
 │   ├── us-tv.m3u
-│   └── news-channels.m3u
+│   └── news-channels.m3u8
 └── upstream/
     ├── iptv-org/         # github.com/iptv-org/iptv (streams)
     ├── free-tv/          # github.com/Free-TV/IPTV (curated)
